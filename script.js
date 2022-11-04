@@ -12,6 +12,11 @@ function hideCookieBar() {
 
 let leftSideHeight = document.querySelector('.leftSide').clientHeight;
 let rightSideHeight = document.querySelector('.rightSide').clientHeight;
+let viewportHeight = window.innerHeight;
+
+if (leftSideHeight < viewportHeight) {
+    leftSideHeight = viewportHeight + 'px';     //  TO-DO why doesn't this work?
+}
 
 if (leftSideHeight > rightSideHeight) {
     rightSideHeight = leftSideHeight + 'px';
