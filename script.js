@@ -16,6 +16,8 @@ let viewportHeight = window.innerHeight;
 
 if (leftSideHeight < viewportHeight) {
     leftSideHeight = viewportHeight + 'px';     //  TO-DO why doesn't this work?
+} else if (rightSideHeight < viewportHeight) {
+    rightSideHeight = viewportHeight + 'px';
 }
 
 if (leftSideHeight > rightSideHeight) {
@@ -45,7 +47,7 @@ disableScroll();    // disabling scroll when website loads
 document.querySelector('.accept').addEventListener('click', enableScroll);
 document.querySelector('.decline').addEventListener('click', enableScroll);
 
-// hide and unhide scroll bar as necessary
+// hide and unhide scrollbar as necessary
 
 function hideScrollBar() {
     document.body.style.overflow = 'hidden';
@@ -55,4 +57,4 @@ function unhideScrollBar() {
     document.body.style.overflow = 'visible';
 }
 
-hideScrollBar();    // hiding cookie bar when website loads
+hideScrollBar();    // hiding scrollbar when website loads
