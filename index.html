@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <title>Ravi's Cookies</title>
+</head>
+<body>
+    <!-- WEBSITE CONTENT -->
+    <div class="overlay"></div>
+    <div class="header">
+        <a href="index.html"><img src="img/logo-new.png" alt="grandma's bakes"></a>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="siteContent">
+        <div class="leftSide">
+            <h1>Welcome to<br><span>Ravi's Cookies</span></h1>
+            <p>A cookie is a piece of code that a website uses to track, monitor and personalize the information you receive when entering and using the site.</p>
+            <p>At the fundamental level, a cookie is a text file (usually coded in JavaScript or PHP) that websites can place on your web browser or computer whenever you visit a site that uses cookies. Cookies can store information about your browser, so that websites can essentially ‘remember’ you. They can store details such as your browser agent, what time and date you last visited the site, what your language preferences are and what you were last doing on the site. Websites, marketers and other interested parties can then use this information to improve your web-browsing experience and provide you personalized content and more.</p>
+            <p>There are various types of cookies that websites use to store information about you. Depending on the protocol they use to transfer information, how long they persist on your device, or whose cookies they are, various cookies can be implemented by websites to achieve their desired results.</p>
+            <button class="recipes"><i class="fa-solid fa-mug-hot"></i> Check out Ravi's Recipes</button>
+        </div>
+        <div class="rightSide">
+            <img src="img/site-bg-new.jpeg" alt="cookies">
+        </div>
+    </div>
+    <!-- End of WEBSITE CONTENT - website content has only been placed for demo purposes. -->
+    <!-- COOKIE BAR -->
+    <div class="cookieBar">
+        <div class="cookieImg">
+            <img src="img/cookie.png" alt="cookie" id="cookie">
+        </div>
+        <div class="cookieBarContent">
+            <h3>Psst... want a cookie?</h3>
+            <p>These aren't as great as Ravi's chocolate chip delights, but they sure help make your experience on the Web a whole lot better.</p>
+            <div class="cookieBarButtons">
+            <button class="accept" onclick="hideCookieBar()">Sure, I'll have some!</button>
+            <button class="decline" onclick="hideCookieBar()">No thanks, I'm good.</button>
+        </div>
+        </div>
+    </div>
+    <!-- END OF COOKIE BAR -->
+    <script src="script.js"></script>
+</body>
+</html>

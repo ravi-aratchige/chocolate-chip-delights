@@ -1,0 +1,164 @@
+/* INITIALIZATION */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    z-index: 1;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+/* WEBSITE - HEADER */
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #303030;
+    color: white;
+}
+.header img {
+    height: 50px;
+    margin: 10px;
+    padding-left: 1rem;
+}
+.header ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header li {
+    list-style: none;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding-right: 2rem;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* WEBSITE - CONTENT */
+
+.siteContent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* WEBSITE - LEFT SIDE */
+
+.leftSide {
+    padding: 75px 75px 1.2rem 1.2rem;
+}
+.leftSide h1 {
+    font-size: 3rem;
+}
+.leftSide p {
+    margin: 2rem auto 2rem auto;
+}
+.leftSide button {
+    background-color: #303030;
+    color: white;
+    border: 2px solid #303030;
+    border-radius: 30px;
+    padding: 0.7rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    font-size: 1.2rem;
+}
+.leftSide button i {
+    padding-left: 0.2rem;
+    padding-right: 0.5rem;
+}
+
+/* WEBSITE - RIGHT SIDE */
+
+.rightSide {
+    height: 100vh;
+}
+.rightSide img {
+    /* position: absolute; */
+    background-image: url("img/site-bg-new.jpeg");
+    background-size: cover;
+    /* object-fit: cover; */
+    top: 0px;
+    height: 100vh;
+    /* bottom: 0%; */
+}
+
+/* Any styling above this is only for the demo website behind the cookie bar. */
+
+/* COOKIE BAR - BASIC STRUCTURE */
+
+.cookieBar {
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0.7rem;
+    color: white;
+    background-color: #303030;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow borrowed from https://getcssscan.com/css-box-shadow-examples */
+}
+
+/* COOKIE BAR - IMAGE OF COOKIE */
+
+#cookie {
+    height: 100px;
+}
+
+/* COOKIE BAR - CONTENT */
+
+.cookieBarContent {
+    padding-left: 1rem;
+}
+.cookieBarContent h3 {
+    margin: 0;
+}
+.cookieBarContent p {
+    font-size: small;
+    padding-right: 1.2rem;
+}
+
+/* COOKIE BAR - BUTTONS */
+
+.cookieBarButtons {
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    background-color: #303030;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    font-size: small;
+}
+
+/* HOVER STATES */
+
+.header a:hover {
+    text-decoration: underline;
+}
+button:hover {
+    background-color: white;
+    color: #303030;
+    cursor: pointer;
+}
