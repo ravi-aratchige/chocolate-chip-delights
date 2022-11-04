@@ -14,6 +14,6 @@ The bar has two buttons; "Sure, I'll have one!" for accepting cookies and "No th
 <br><br>
 ## TO-DO
 <br>
-- [ ] Add a cookie/cookies to the user's browser to remember their decision<br>
-- [ ] Fix mobile responsivity<br>
-- [ ] Add a "Learn More" capability to the bar<br>
+- [ ] Add a cookie/cookies to the user's browser to remember their decision
+- [ ] Fix mobile responsivity
+- [ ] Add a "Learn More" capability to the bar
