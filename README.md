@@ -15,6 +15,6 @@ The bar has two buttons; "Sure, I'll have one!" for accepting cookies and "No th
 <h2>TO-DO</h2>
 <br>
 - [ ] Add a cookie/cookies to the user's browser to remember their decision<br>
-- [ ] Fix mobile responsivity<br>
+- [ ] Fix mobile responsivity for Galaxy Fold<br>
 - [ ] Add a "Learn More" capability to the bar<br>
 - [ ] Cleanup code<br>

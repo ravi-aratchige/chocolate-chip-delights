@@ -158,3 +158,48 @@ button:hover {
     color: #303030;
     cursor: pointer;
 }
+
+/* MEDIA QUERIES */
+
+/* Medium responsivity */
+
+@media only screen and (max-width: 720px) {
+
+    /* Basic structure */
+
+    .siteContent {
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px auto;
+    }
+    .leftSide {
+        order: 2;
+        padding: 1rem;
+    }
+    .leftSide h1 {
+        margin: 0;
+    }
+    .rightSide {
+        order: 1;
+    }
+
+    /* Cookie bar */
+
+    .cookieBar {
+        align-items: flex-start;
+    }
+    .cookieBarButtons {
+        width: 90%;
+    }
+}
+
+/* Small phone screen responsivity */
+
+@media only screen and (max-width: 400px) {
+    .header li {
+        margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+        padding-right: 1rem;
+    }
+}
