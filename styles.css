@@ -131,9 +131,11 @@ body {
 /* COOKIE BAR - BUTTONS */
 
 .cookieBarButtons {
-    width: 39%;
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10px;
+
 }
 button {
     background-color: #303030;
